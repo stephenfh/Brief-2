@@ -1,0 +1,39 @@
+OCR GROUND TRUTH for corpus/05_security_clearance_letter_scan.pdf
+(evaluation only - must not be indexed or shown to the agent)
+True clearance reference: NSO-CL-2026-0173 (ends 0173).
+The final digit is deliberately blurred in the scan so OCR may read 0173 or 0178.
+Every page carries the footer/stamp: SYNTHETIC – DEMO ONLY
+==========================================
+--- page 1 ---
+NATIONAL SECURITY OFFICE (SYNTHETIC)
+Personnel Security Clearance Unit
+22 October 2026
+Mr Michael Byrne
+Programme Office, Garda Digital Transformation Programme
+Dublin
+Re: Security clearance decision â€“ Julie Sour
+Dear Mr Byrne,
+Following completion of the personnel security review for the
+individual named below, I am pleased to confirm the outcome of
+the clearance decision.
+Name: Julie Sour
+DOB: 1994-03-12
+Clearance reference: NSO-CL-2026-0173   [true ref NSO-CL-2026-0173; final digit deliberately ambiguous in the scan]
+Clearance level: Level 2 – Programme Access
+Status: APPROVED
+Valid for: 5 years from date of issue (22 Oct 2026)
+This clearance remains valid provided the holder's circumstances
+do not change. Any material change must be reported to this
+office without delay.
+Yours sincerely,
+Maeve Ryan
+Director, Personnel Security
+National Security Office (Synthetic)
+SYNTHETIC – DEMO ONLY
+---- page 2 ----
+NATIONAL SECURITY OFFICE (SYNTHETIC)
+Reviewer notes (RESTRICTED â€“ Security Lead only)
+Case file: Sour, Julie - Programme Access clearance.
+Recommend routine re-review of travel declarations at 12
+months. No adverse findings.
+SYNTHETIC – DEMO ONLY

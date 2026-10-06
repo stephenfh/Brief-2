@@ -1,0 +1,117 @@
+{
+  "roles": {
+    "onboarding_coordinator": {
+      "example_user": "Ciaran Doyle",
+      "summary": "HR record (DOB masked), vetting status and dates for the subject only (no reviewer comment), training, IT ticket, checklist, standards, offer and welcome emails, e-sign certificate. Clearance: status and date only - not the letter's reviewer notes or level."
+    },
+    "security_lead": {
+      "example_user": "Aoife Brennan",
+      "summary": "Everything about the subject, including full vetting history, and the clearance letter including page 2 reviewer notes."
+    },
+    "hiring_manager": {
+      "example_user": "Michael Byrne",
+      "summary": "Per-requirement met / not met status, offer email, welcome email, checklist, standards. No vetting register content, clearance letter, DOB or reviewer notes."
+    },
+    "it_service_desk": {
+      "example_user": "Priya Nair",
+      "summary": "IT ticket, IT FAQ, standards (access tier section). No vetting, clearance or HR personal data."
+    }
+  },
+  "global_rules": [
+    "For every role: rows about other joiners (including the similarly named Julia Sour, EMP-45812) are never shown in a case view for Julie Sour.",
+    "A role with access 'status_only' may be told whether a requirement is met / not met, but never shown the document's content."
+  ],
+  "access_levels": {
+    "full": "May see the subject's content in this document.",
+    "masked": "May see the subject's content with the listed fields withheld.",
+    "partial": "May see only the listed visible_fields / sections.",
+    "status_only": "May be told met / not met per requirement derived from this document; no content.",
+    "none": "No access."
+  },
+  "document_access": {
+    "DOC-01": {
+      "onboarding_coordinator": {"access": "masked", "masked_fields": ["DOB"]},
+      "security_lead": {"access": "full"},
+      "hiring_manager": {"access": "status_only"},
+      "it_service_desk": {"access": "none"}
+    },
+    "DOC-02": {
+      "onboarding_coordinator": {"access": "full"},
+      "security_lead": {"access": "full"},
+      "hiring_manager": {"access": "full"},
+      "it_service_desk": {"access": "none"}
+    },
+    "DOC-03": {
+      "onboarding_coordinator": {"access": "full"},
+      "security_lead": {"access": "full"},
+      "hiring_manager": {"access": "status_only"},
+      "it_service_desk": {"access": "none"}
+    },
+    "DOC-04": {
+      "onboarding_coordinator": {"access": "masked", "masked_fields": ["Reviewer comment", "DOB"]},
+      "security_lead": {"access": "full"},
+      "hiring_manager": {"access": "status_only"},
+      "it_service_desk": {"access": "none"}
+    },
+    "DOC-05": {
+      "onboarding_coordinator": {"access": "partial", "visible_fields": ["clearance status", "decision date"], "masked_fields": ["clearance level", "reviewer notes (page 2)", "DOB"]},
+      "security_lead": {"access": "full"},
+      "hiring_manager": {"access": "status_only"},
+      "it_service_desk": {"access": "none"}
+    },
+    "DOC-06": {
+      "onboarding_coordinator": {"access": "full"},
+      "security_lead": {"access": "full"},
+      "hiring_manager": {"access": "status_only"},
+      "it_service_desk": {"access": "none"}
+    },
+    "DOC-07": {
+      "onboarding_coordinator": {"access": "full"},
+      "security_lead": {"access": "full"},
+      "hiring_manager": {"access": "status_only"},
+      "it_service_desk": {"access": "full"}
+    },
+    "DOC-08": {
+      "onboarding_coordinator": {"access": "full"},
+      "security_lead": {"access": "full"},
+      "hiring_manager": {"access": "status_only"},
+      "it_service_desk": {"access": "none"}
+    },
+    "DOC-09": {
+      "onboarding_coordinator": {"access": "full"},
+      "security_lead": {"access": "full"},
+      "hiring_manager": {"access": "full"},
+      "it_service_desk": {"access": "none"}
+    },
+    "DOC-10": {
+      "onboarding_coordinator": {"access": "full"},
+      "security_lead": {"access": "full"},
+      "hiring_manager": {"access": "full"},
+      "it_service_desk": {"access": "partial", "visible_fields": ["Access tiers section"]}
+    },
+    "DOC-11": {
+      "onboarding_coordinator": {"access": "full"},
+      "security_lead": {"access": "full"},
+      "hiring_manager": {"access": "full"},
+      "it_service_desk": {"access": "partial", "visible_fields": ["Access tiers section"]}
+    },
+    "DOC-12": {
+      "onboarding_coordinator": {"access": "full"},
+      "security_lead": {"access": "full"},
+      "hiring_manager": {"access": "full"},
+      "it_service_desk": {"access": "full"}
+    },
+    "DOC-13": {
+      "onboarding_coordinator": {"access": "full"},
+      "security_lead": {"access": "full"},
+      "hiring_manager": {"access": "full"},
+      "it_service_desk": {"access": "none"}
+    },
+    "DOC-14": {
+      "onboarding_coordinator": {"access": "full"},
+      "security_lead": {"access": "full"},
+      "hiring_manager": {"access": "full"},
+      "it_service_desk": {"access": "full"}
+    }
+  }
+}
