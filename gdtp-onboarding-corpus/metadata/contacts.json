@@ -1,0 +1,14 @@
+{
+  "_note": "Synthetic contacts. Fictional people only. Keyed by owner_area (see manifest.json). visible_to limits which roles may see the contact; others get the generic fallback.",
+  "areas": {
+    "hr": {"name": "Orla Fitzgerald", "role": "HR Operations Lead (owner of the HR master record)", "email": "orla.fitzgerald@gdtp.example", "visible_to": ["onboarding_coordinator", "security_lead"]},
+    "vetting": {"name": "Tadhg Gallagher", "role": "Garda Vetting Unit (owner of the Vetting Register)", "email": "tadhg.gallagher@gdtp.example", "visible_to": ["onboarding_coordinator", "security_lead"]},
+    "clearance": {"name": "Maeve Ryan", "role": "Director, Personnel Security, National Security Office", "email": "maeve.ryan@gdtp.example", "visible_to": ["onboarding_coordinator", "security_lead"]},
+    "training": {"name": "Roisin Keane", "role": "Learning and Development Administrator (owner of the Cyber Training Tracker)", "email": "roisin.keane@gdtp.example", "visible_to": ["onboarding_coordinator", "security_lead"]},
+    "it": {"name": "Priya Nair", "role": "IT Service Desk Agent (owner of IT provisioning tickets and MFA tokens)", "email": "priya.nair@gdtp.example", "visible_to": ["onboarding_coordinator", "security_lead", "hiring_manager", "it_service_desk"]},
+    "onboarding": {"name": "Ciaran Doyle", "role": "Onboarding Coordinator (approves Corporate access)", "email": "ciaran.doyle@gdtp.example", "visible_to": ["onboarding_coordinator", "security_lead", "hiring_manager", "it_service_desk"]},
+    "security": {"name": "Aoife Brennan", "role": "Security Lead (approves Production access)", "email": "aoife.brennan@gdtp.example", "visible_to": ["onboarding_coordinator", "security_lead", "hiring_manager", "it_service_desk"]},
+    "programme": {"name": "Michael Byrne", "role": "Programme Delivery Manager (hiring manager)", "email": "michael.byrne@gdtp.example", "visible_to": ["onboarding_coordinator", "security_lead", "hiring_manager", "it_service_desk"]}
+  },
+  "fallback": {"name": "Your supervisor", "role": "Ask your supervisor to route this to the record owner", "email": ""}
+}

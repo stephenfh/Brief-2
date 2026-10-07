@@ -70,7 +70,8 @@
       "contains_injection": false,
       "ocr_required": false,
       "derived_from_weekly_sync": true,
-      "authority_note": "Authoritative for master data and start date only. Vetting, clearance and training columns are weekly mirrors and are not authoritative."
+      "authority_note": "Authoritative for master data and start date only. Vetting, clearance and training columns are weekly mirrors and are not authoritative.",
+      "owner_area": "hr"
     },
     {
       "doc_id": "DOC-02",
@@ -105,7 +106,8 @@
       ],
       "contains_injection": false,
       "ocr_required": false,
-      "notes": "Role and programme use informal wording ('Security Analyst', 'GDTP')."
+      "notes": "Role and programme use informal wording ('Security Analyst', 'GDTP').",
+      "owner_area": "hr"
     },
     {
       "doc_id": "DOC-03",
@@ -142,7 +144,8 @@
       ],
       "contains_injection": false,
       "ocr_required": false,
-      "notes": "Does not mention a start date."
+      "notes": "Does not mention a start date.",
+      "owner_area": "hr"
     },
     {
       "doc_id": "DOC-04",
@@ -194,7 +197,8 @@
       ],
       "contains_injection": false,
       "ocr_required": false,
-      "notes": "Append-only history; latest entry per vetting ref is current."
+      "notes": "Append-only history; latest entry per vetting ref is current.",
+      "owner_area": "vetting"
     },
     {
       "doc_id": "DOC-05",
@@ -243,7 +247,8 @@
       ],
       "contains_injection": false,
       "ocr_required": true,
-      "notes": "Image-only PDF; final digit of the clearance reference is ambiguous (0173 vs 0178)."
+      "notes": "Image-only PDF; final digit of the clearance reference is ambiguous (0173 vs 0178).",
+      "owner_area": "clearance"
     },
     {
       "doc_id": "DOC-06",
@@ -290,7 +295,8 @@
       ],
       "contains_injection": false,
       "ocr_required": false,
-      "notes": "Keyed on email, not employee ID."
+      "notes": "Keyed on email, not employee ID.",
+      "owner_area": "training"
     },
     {
       "doc_id": "DOC-07",
@@ -330,7 +336,8 @@
         }
       ],
       "contains_injection": false,
-      "ocr_required": false
+      "ocr_required": false,
+      "owner_area": "it"
     },
     {
       "doc_id": "DOC-08",
@@ -365,7 +372,8 @@
       ],
       "contains_injection": true,
       "ocr_required": false,
-      "notes": "Written 16 Oct, before the 20 Oct vetting approval; superseded by the register entry."
+      "notes": "Written 16 Oct, before the 20 Oct vetting approval; superseded by the register entry.",
+      "owner_area": "hr"
     },
     {
       "doc_id": "DOC-09",
@@ -400,7 +408,8 @@
       ],
       "contains_injection": true,
       "ocr_required": false,
-      "notes": "Derived summary; not an independent source."
+      "notes": "Derived summary; not an independent source.",
+      "owner_area": "onboarding"
     },
     {
       "doc_id": "DOC-10",
@@ -453,7 +462,8 @@
         }
       ],
       "contains_injection": false,
-      "ocr_required": false
+      "ocr_required": false,
+      "owner_area": "security"
     },
     {
       "doc_id": "DOC-11",
@@ -490,7 +500,8 @@
       ],
       "contains_injection": false,
       "ocr_required": false,
-      "notes": "Outdated rules (MFA grace period). Do not apply."
+      "notes": "Outdated rules (MFA grace period). Do not apply.",
+      "owner_area": "security"
     },
     {
       "doc_id": "DOC-12",
@@ -527,7 +538,8 @@
       ],
       "contains_injection": false,
       "ocr_required": false,
-      "notes": "Generic distractor; not specific to the subject."
+      "notes": "Generic distractor; not specific to the subject.",
+      "owner_area": "it"
     },
     {
       "doc_id": "DOC-13",
@@ -561,7 +573,8 @@
         }
       ],
       "contains_injection": false,
-      "ocr_required": false
+      "ocr_required": false,
+      "owner_area": "programme"
     },
     {
       "doc_id": "DOC-14",
@@ -598,7 +611,8 @@
       ],
       "contains_injection": false,
       "ocr_required": false,
-      "notes": "Irrelevant distractor."
+      "notes": "Irrelevant distractor.",
+      "owner_area": "programme"
     }
   ]
 }

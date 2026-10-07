@@ -1,0 +1,7 @@
+flask
+openai
+python-dotenv
+openpyxl
+python-docx
+pypdf
+pillow
